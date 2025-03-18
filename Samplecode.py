@@ -10,7 +10,7 @@ import tempfile
 import ssl
 
 app = Flask(__name__)
-app.secret_key = "very_secret_key_12345"
+#app.secret_key = "very_secret_key_12345"
 
 # Dangerous import of Pickle
 def load_user_preferences(data):
